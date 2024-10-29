@@ -52,6 +52,16 @@
      let stringNumber = String(sumNumber);
      console.log( typeof stringNumber);
 
+     //****************** Operations************************** */
+
+   // arithmatic operations=
+   // console.log(2+2);
+   // console.log(2-2);
+   // console.log(2*2);
+   // console.log(2**2);
+   // console.log(2/2);
+   // console.log(2%2);
+
 
 
 
