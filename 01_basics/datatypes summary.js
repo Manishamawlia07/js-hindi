@@ -35,3 +35,24 @@ let symbol= symbol('123')
 
     }
 
+    // stack ( primitive)  heap ( non primitive)
+
+    let myname =" manihsha"
+    let newname = myname
+
+    newname = "mawliamanisha"
+    console.log(myname);
+    console.log(newname);// in primitive the newcopy of variable name is stored and that is why it is stack.
+
+    let userOne = {
+        email: " manishamawlia@gmail.com",
+        upi: "myupi",
+    }
+    let userTwo = userOne
+    userTwo.email = " mymail.com"
+    console.log(userTwo.email);// two different value will prinit because the referance the same.
+    
+    
+    
+     
+
