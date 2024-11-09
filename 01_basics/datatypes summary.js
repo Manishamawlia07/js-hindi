@@ -51,6 +51,8 @@ let symbol= symbol('123')
     let userTwo = userOne
     userTwo.email = " mymail.com"
     console.log(userTwo.email);// two different value will prinit because the referance the same.
+
+    
     
     
     
