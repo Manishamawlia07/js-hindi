@@ -66,6 +66,36 @@ const obj3 ={...obj1, ...obj2}
  console.log(Object.values(newTinder));
  console.log(Object.entries(newTinder));
 
+ // objects de-structure
+
+ const course = {
+    coursename:" js in hindi",
+    price:1000,
+    instructor:"hitesh"
+ }
+
+ //course.instructor
+
+ const {instructor: courseinstructor} = course
+ console.log(courseinstructor);
+
+ //JSON
+
+ {// ye hai api format in form of objects ki form mai hoti hai api 
+    "NAME":" manisha",
+    "coursename":" js in hindi ",
+    "price":"free"
+ }
+
+ // array ki fortm mai bhi hoti hai api.
+ [
+    {},
+    {},
+    {},
+    {}
+ ]
+
+ 
  
 
   
