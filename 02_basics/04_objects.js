@@ -82,9 +82,9 @@ const obj3 ={...obj1, ...obj2}
  //JSON
 
  {// ye hai api format in form of objects ki form mai hoti hai api 
-    "NAME":" manisha",
-    "coursename":" js in hindi ",
-    "price":"free"
+    // "NAME":" manisha",
+    // "coursename":" js in hindi ",
+    // "price":"free"
  }
 
  // array ki fortm mai bhi hoti hai api.
