@@ -1,0 +1,10 @@
+function myfun() {
+console.log("m");
+console.log("a");
+console.log("n");
+console.log("i");
+console.log("s");
+console.log("h");
+console.log("a");
+}  
+myfun() // here myfun is refrence 
