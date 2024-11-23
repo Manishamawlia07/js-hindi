@@ -1,3 +1,5 @@
+// functions are block o f code which performs some specific task and can be invoked whenever needed inviked means call
+
 function myfun() {
 console.log("m");
 console.log("a");
@@ -6,5 +8,47 @@ console.log("i");
 console.log("s");
 console.log("h");
 console.log("a");
-}  
-myfun() // here myfun is refrence 
+} // this is function defination
+
+//myfun() // here myfun is refrence and paranthesis are  execution 
+
+function addtwonumbers(number1, number2) {
+    console.log(number1 + number2);
+    
+    
+}
+addtwonumbers(3,4);
+
+function myfun1(msg){
+    console.log(msg);
+    }
+
+myfun1("i love js");
+
+// important : values ko return krke hi hum function call  ko variable m store kr skte h 
+function myfun2(num1, num2){
+    return num1+num2;
+    }
+
+ const result = myfun2(4, 4)
+ //console.log("result:", result);
+
+ function loginUserMessage(username = "manisha") {
+    if (!username) {
+        console.log("please enter a user name")
+        return
+        
+    }
+
+    return `${username} just logged in`
+    
+ }
+ console.log(loginUserMessage("Manisha"))// agr value hi pass nhi kre ge to if condition chle gi 
+
+ 
+
+
+
+
+ 
+
